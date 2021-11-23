@@ -27,6 +27,7 @@ export const Text = styled.div`
   img {
     max-width: 600px;
     object-fit: contain;
+    margin: 10px 0;
   }
   @media (max-width: 486px) {
     p {
