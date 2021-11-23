@@ -1,5 +1,6 @@
 {
   "name": "exercise-list",
+  "homepage": "https://kamila-duda.github.io/exercise-list/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
