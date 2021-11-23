@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   padding: 30px;
   max-width: 1140px;
   margin: 0 auto;
+  overflow-x: hidden;
   @media (max-width: 786px) {
     padding: 5px;
   }
