@@ -8,13 +8,7 @@ export const CodeWrapper = styled.div`
   font-size: 24px;
   border: 5px solid #374379;
   @media (max-width: 786px) {
-    padding: 0;
-    max-width: 700px;
-  }
-  @media (max-width: 386px) {
-    padding: 0;
-    max-width: 300px;
-  }
+    padding: 5px;
 `;
 
 export const Title = styled.h2`
