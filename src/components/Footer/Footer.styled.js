@@ -14,12 +14,12 @@ export const Container = styled.footer`
 
 export const LinksWrapper = styled.div`
   width: 100%;
+  display: grid;
+  grid-gap: 15px;
   z-index: 1;
 `;
 
 export const StyledLink = styled.a`
-  display: block;
-  padding: 15px 0;
   font-size: 24px;
   text-decoration: none;
   text-transform: uppercase;
@@ -30,6 +30,9 @@ export const StyledLink = styled.a`
   @media (max-width: 786px) {
     font-size: 18px;
   }
+  @media (max-width: 486px) {
+    font-size: 16px;
+  }
   ${({ small }) =>
     small &&
     css`
@@ -37,6 +40,10 @@ export const StyledLink = styled.a`
       text-transform: capitalize;
       @media (max-width: 786px) {
         font-size: 16px;
+      }
+      @media (max-width: 486px) {
+        font-size: 14px;
+        width: 100%;
       }
     `}
   :hover {

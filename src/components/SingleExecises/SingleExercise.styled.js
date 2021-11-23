@@ -9,6 +9,10 @@ export const CodeWrapper = styled.div`
   border: 5px solid #374379;
   @media (max-width: 786px) {
     padding: 5px;
+  }
+  @media (max-width: 486px) {
+    font-size: 16px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -23,7 +27,12 @@ export const Text = styled.div`
   img {
     max-width: 600px;
     object-fit: contain;
-    @media (max-width: 486px) {
+  }
+  @media (max-width: 486px) {
+    p {
+      font-size: 20px;
+    }
+    img {
       max-width: 300px;
     }
   }
@@ -76,6 +85,7 @@ export const CodeGrid = styled.div`
 
 export const StyledCode = styled.code`
   margin: 5px;
+  }
 `;
 
 export const CopyWrapper = styled.div`
